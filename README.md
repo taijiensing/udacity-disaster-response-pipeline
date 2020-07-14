@@ -12,6 +12,8 @@ Resulting database from process_date job
 
 ### Models
 #### 1. train_classifier.py
+#### 2. classifier.rar
+Compressed classifier.pkl file
 
 ### App
 #### 1. run.py
