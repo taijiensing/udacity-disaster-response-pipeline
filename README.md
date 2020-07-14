@@ -20,3 +20,8 @@ Compressed classifier.pkl file
 Flask app with UI to predict results and display them.
 #### 2. templates
 Screencaps for flask app
+
+### Screencaps
+Two Flask search examples
+search-hunger.png
+search-sick.png
