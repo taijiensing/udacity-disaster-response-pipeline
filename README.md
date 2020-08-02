@@ -32,7 +32,7 @@ Clone the git repository:
    ![alt text](https://github.com/taijiensing/udacity-disaster-response-pipeline/blob/master/screencaps/troubleshoot1.png?raw=true)
 
 # Additional Troubleshooting:
-1. When working out of udacity workspace, http://0.0.0.0:3001/ as not able to load.
+1. When working out of udacity workspace, http://0.0.0.0:3001/ was not able to load.
 
    ![alt text](https://github.com/taijiensing/udacity-disaster-response-pipeline/blob/master/screencaps/troubleshoot2.png?raw=true)
 
