@@ -13,6 +13,7 @@ Clone the git repository:
     git clone https://github.com/taijiensing/udacity-disaster-response-pipeline.git
 
 # Executing the Program:
+
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -28,8 +29,13 @@ Clone the git repository:
 
 3. Go to http://0.0.0.0:3001/
 
+   ![alt text](https://github.com/taijiensing/udacity-disaster-response-pipeline/blob/master/screencaps/troubleshoot1.png?raw=true)
+
 # Additional Troubleshooting:
 1. When working out of udacity workspace, http://0.0.0.0:3001/ as not able to load.
+
+   ![alt text](https://github.com/taijiensing/udacity-disaster-response-pipeline/blob/master/screencaps/troubleshoot2.png?raw=true)
+
 2. To resolve this, once app in running (python run.py):
 
     - Open another terminal and type:
@@ -37,7 +43,9 @@ Clone the git repository:
         `env|grep WORK`
             
     - This will show something along the lines of SPACEID=view******** (combination of digits and characters)
-    
+
+   ![alt text](https://github.com/taijiensing/udacity-disaster-response-pipeline/blob/master/screencaps/troubleshoot3.png?raw=true)
+
     - Open browser window and type:
     
         `https://view********-3001.udacity-student-workspaces.com`
@@ -59,5 +67,15 @@ Clone the git repository:
 1. run.py: Flask app with UI to predict results and display them.
 2. templates: folder containing html templates
 
-### Screencaps Folder
-Two Flask search examples: 1. search-hunger.png 2.search-sick.png
+# Screenshots
+1. Example of a message to indicate hunger: 'I am hungry!'
+
+   ![alt text](https://github.com/taijiensing/udacity-disaster-response-pipeline/blob/master/screencaps/search-hunger.png?raw=true)
+   
+2. Example of a message to indicate hunger: 'Everyone is sick!'
+
+   ![alt text](https://github.com/taijiensing/udacity-disaster-response-pipeline/blob/master/screencaps/search-sick.png?raw=true)
+
+3. Visualizing Figure Eight's dataset: 
+
+   ![alt text](https://github.com/taijiensing/udacity-disaster-response-pipeline/blob/master/screencaps/data-visualisation.png?raw=true)
